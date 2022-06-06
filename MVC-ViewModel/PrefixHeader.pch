@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  MVC-ViewModel
+//
+//  Created by WeiHan on 2022/6/6.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define MAS_SHORTHAND 1
+#import <Masonry/Masonry.h>
+
+#endif /* PrefixHeader_pch */

@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		687A7FED284F4EED0020878C /* RepositoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 687A7FEC284F4EED0020878C /* RepositoryViewModel.m */; };
+		687A7FEF284F8C030020878C /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687A7FEE284F8C030020878C /* SafariServices.framework */; };
 		68D52E61284DFF1C0005AE80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D52E60284DFF1C0005AE80 /* AppDelegate.m */; };
-		68D52E63284DFF1C0005AE80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D52E62284DFF1C0005AE80 /* ContentView.swift */; };
 		68D52E65284DFF230005AE80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D52E64284DFF230005AE80 /* Assets.xcassets */; };
 		68D52E68284DFF230005AE80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D52E66284DFF230005AE80 /* LaunchScreen.storyboard */; };
 		68D52E6A284DFF230005AE80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D52E69284DFF230005AE80 /* main.m */; };
+		68D52E7E284E15300005AE80 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D52E7A284E15300005AE80 /* SettingsViewController.m */; };
+		68D52E7F284E15300005AE80 /* RepositoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D52E7C284E15300005AE80 /* RepositoryViewController.m */; };
+		68D52E84284E3AB00005AE80 /* RepositoryCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D52E83284E3AB00005AE80 /* RepositoryCollectionView.m */; };
+		68D52E87284E3AF10005AE80 /* RepositoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D52E86284E3AF10005AE80 /* RepositoryModel.m */; };
+		F410A6F0F47A09CAAD69B425 /* libPods-MVC-ViewModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C66E2EE63F7017600896D79 /* libPods-MVC-ViewModel.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46E36FE72AACAC0B12810D0D /* Pods-MVC-ViewModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVC-ViewModel.debug.xcconfig"; path = "Target Support Files/Pods-MVC-ViewModel/Pods-MVC-ViewModel.debug.xcconfig"; sourceTree = "<group>"; };
+		4C66E2EE63F7017600896D79 /* libPods-MVC-ViewModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVC-ViewModel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		687A7FEB284F4EED0020878C /* RepositoryViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepositoryViewModel.h; sourceTree = "<group>"; };
+		687A7FEC284F4EED0020878C /* RepositoryViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepositoryViewModel.m; sourceTree = "<group>"; };
+		687A7FEE284F8C030020878C /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		68D52E5C284DFF1C0005AE80 /* MVC-ViewModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC-ViewModel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D52E5F284DFF1C0005AE80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68D52E60284DFF1C0005AE80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		68D52E62284DFF1C0005AE80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68D52E64284DFF230005AE80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68D52E67284DFF230005AE80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68D52E69284DFF230005AE80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68D52E7A284E15300005AE80 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		68D52E7B284E15300005AE80 /* RepositoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepositoryViewController.h; sourceTree = "<group>"; };
+		68D52E7C284E15300005AE80 /* RepositoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoryViewController.m; sourceTree = "<group>"; };
+		68D52E7D284E15300005AE80 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		68D52E82284E3AB00005AE80 /* RepositoryCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepositoryCollectionView.h; sourceTree = "<group>"; };
+		68D52E83284E3AB00005AE80 /* RepositoryCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepositoryCollectionView.m; sourceTree = "<group>"; };
+		68D52E85284E3AF10005AE80 /* RepositoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepositoryModel.h; sourceTree = "<group>"; };
+		68D52E86284E3AF10005AE80 /* RepositoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepositoryModel.m; sourceTree = "<group>"; };
+		68D52E88284E3C130005AE80 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7BE92D70A2782C73B553F13C /* Pods-MVC-ViewModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVC-ViewModel.release.xcconfig"; path = "Target Support Files/Pods-MVC-ViewModel/Pods-MVC-ViewModel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				687A7FEF284F8C030020878C /* SafariServices.framework in Frameworks */,
+				F410A6F0F47A09CAAD69B425 /* libPods-MVC-ViewModel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05D2F86A5B9F9577AD30A9C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46E36FE72AACAC0B12810D0D /* Pods-MVC-ViewModel.debug.xcconfig */,
+				7BE92D70A2782C73B553F13C /* Pods-MVC-ViewModel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		687A7FEA284F4EA00020878C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				687A7FEB284F4EED0020878C /* RepositoryViewModel.h */,
+				687A7FEC284F4EED0020878C /* RepositoryViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		68D52E53284DFF1C0005AE80 = {
 			isa = PBXGroup;
 			children = (
 				68D52E5E284DFF1C0005AE80 /* MVC-ViewModel */,
 				68D52E5D284DFF1C0005AE80 /* Products */,
+				05D2F86A5B9F9577AD30A9C9 /* Pods */,
+				FB594041ADF67D9CDD2884F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +98,54 @@
 			children = (
 				68D52E5F284DFF1C0005AE80 /* AppDelegate.h */,
 				68D52E60284DFF1C0005AE80 /* AppDelegate.m */,
-				68D52E62284DFF1C0005AE80 /* ContentView.swift */,
+				68D52E79284E15300005AE80 /* Controllers */,
+				68D52E80284E3A780005AE80 /* Views */,
+				687A7FEA284F4EA00020878C /* ViewModels */,
+				68D52E81284E3A780005AE80 /* Models */,
 				68D52E64284DFF230005AE80 /* Assets.xcassets */,
 				68D52E66284DFF230005AE80 /* LaunchScreen.storyboard */,
+				68D52E88284E3C130005AE80 /* PrefixHeader.pch */,
 				68D52E69284DFF230005AE80 /* main.m */,
 			);
 			path = "MVC-ViewModel";
+			sourceTree = "<group>";
+		};
+		68D52E79284E15300005AE80 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				68D52E7B284E15300005AE80 /* RepositoryViewController.h */,
+				68D52E7C284E15300005AE80 /* RepositoryViewController.m */,
+				68D52E7D284E15300005AE80 /* SettingsViewController.h */,
+				68D52E7A284E15300005AE80 /* SettingsViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		68D52E80284E3A780005AE80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68D52E82284E3AB00005AE80 /* RepositoryCollectionView.h */,
+				68D52E83284E3AB00005AE80 /* RepositoryCollectionView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		68D52E81284E3A780005AE80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				68D52E85284E3AF10005AE80 /* RepositoryModel.h */,
+				68D52E86284E3AF10005AE80 /* RepositoryModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FB594041ADF67D9CDD2884F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				687A7FEE284F8C030020878C /* SafariServices.framework */,
+				4C66E2EE63F7017600896D79 /* libPods-MVC-ViewModel.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +155,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68D52E6D284DFF230005AE80 /* Build configuration list for PBXNativeTarget "MVC-ViewModel" */;
 			buildPhases = (
+				00EFD7E4E7DDA0A15F6A076C /* [CP] Check Pods Manifest.lock */,
 				68D52E58284DFF1C0005AE80 /* Sources */,
 				68D52E59284DFF1C0005AE80 /* Frameworks */,
 				68D52E5A284DFF1C0005AE80 /* Resources */,
@@ -129,12 +214,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00EFD7E4E7DDA0A15F6A076C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVC-ViewModel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		68D52E58284DFF1C0005AE80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68D52E63284DFF1C0005AE80 /* ContentView.swift in Sources */,
+				68D52E84284E3AB00005AE80 /* RepositoryCollectionView.m in Sources */,
+				68D52E7F284E15300005AE80 /* RepositoryViewController.m in Sources */,
+				68D52E7E284E15300005AE80 /* SettingsViewController.m in Sources */,
+				687A7FED284F4EED0020878C /* RepositoryViewModel.m in Sources */,
+				68D52E87284E3AF10005AE80 /* RepositoryModel.m in Sources */,
 				68D52E6A284DFF230005AE80 /* main.m in Sources */,
 				68D52E61284DFF1C0005AE80 /* AppDelegate.m in Sources */,
 			);
@@ -268,16 +382,20 @@
 		};
 		68D52E6E284DFF230005AE80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46E36FE72AACAC0B12810D0D /* Pods-MVC-ViewModel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,16 +410,20 @@
 		};
 		68D52E6F284DFF230005AE80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE92D70A2782C73B553F13C /* Pods-MVC-ViewModel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
